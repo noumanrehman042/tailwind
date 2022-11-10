@@ -1,0 +1,7 @@
+https://tailwindcss.com/docs/flex
+
+
+flex-1:
+flex-1 to allow a flex item to grow and shrink as needed, ignoring its initial size:
+
+
