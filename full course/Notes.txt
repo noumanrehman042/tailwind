@@ -1,0 +1,25 @@
+
+*****************************
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/place-content
+
+
+place-content    ( shorthand for align-content and justify-content)
+
+The place-content CSS shorthand property allows you to align content along both the block and inline directions at once
+(i.e. the align-content and justify-content properties) in a relevant layout system such as Grid or Flexbox.
+
+
+*****************************
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/place-items
+
+
+place-items    ( shorthand for align-items and justify-items )
+
+The CSS place-items shorthand property allows you to align items along both the block and inline directions at once
+ (i.e. the align-items and justify-items properties) in a relevant layout system such as Grid or Flexbox. If the second value is not set, the first value is also used for it.
+
+
+
+*****************************
