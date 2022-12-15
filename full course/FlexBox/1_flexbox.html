@@ -3,12 +3,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Flexbox</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="container mx-auto">
+
+
     <h1 class="text-green-600 text-5xl my-4">GeeksforGeeks</h1>
-    <b>Tailwind CSS grid-cols Class</b>
+    <b>Simple flex</b>
     <div class="flex bg-red-200 m-5">
       <div class="w-16 h-16 bg-yellow-500">1</div>
       <div class="w-16 h-16 bg-red-500">2</div>
@@ -18,6 +20,7 @@
     <!-- ****************************** -->
     <!--
         Justify Content
+        Justify whole grid in Horizontal direction
         Utilities for controlling how flex and grid items are positioned along a container's main axis.
 
         // Default direction - horizontal alignment
@@ -27,11 +30,27 @@
         .justify-between {}
         .justify-around {}
      -->
-    <h1 class="text-green-600 text-5xl my-4">Justify Content</h1>
+    <h1 class="text-green-600 text-5xl my-4">Justify Content (Justify whole grid in Horizontal direction )</h1>
+    <b>justify-center</b>
+    <div class="flex justify-center bg-red-200 m-5">
+      <div class="w-16 h-16 bg-yellow-500">1</div>
+      <div class="w-16 h-16 bg-red-500">2</div>
+      <div class="w-16 h-16 bg-pink-500">3</div>
+    </div>
+
     <b>justify-between</b>
     <div class="flex justify-between bg-red-200 m-5">
       <div class="w-16 h-16 bg-yellow-500">1</div>
-      <div class="w-16 h-16 bg-red-500">2</div>
+      <div class="w-16 h-16 bg-red-500 ">2</div>
+      <div class="w-16 h-16 bg-pink-500">3</div>
+      <div class="w-16 h-16 bg-pink-500">3</div>
+    </div>
+
+    <b>justify-between</b>
+    <div class="flex justify-between bg-red-200 m-5">
+      <div class="w-16 h-16 bg-yellow-500">1</div>
+      <div class="w-16 h-16 bg-red-500 mr-auto">2</div>
+      <div class="w-16 h-16 bg-pink-500">3</div>
       <div class="w-16 h-16 bg-pink-500">3</div>
     </div>
 
@@ -45,6 +64,7 @@
     <!-- ****************************** -->
     <!--
         Justify Items
+        Horizontal ALignment within grid cells
         Utilities for controlling how grid items are aligned along their inline axis.
 
         // Default direction - vertical alignment
@@ -54,8 +74,8 @@
         .items-end {}
         .items-baseline {}
      -->
-    <h1 class="text-green-600 text-5xl my-4">Justify Items</h1>
-    <b>items-start</b>
+    <h1 class="text-green-600 text-5xl my-4">Justify Items ( Horizontal ALignment within grid cells )</h1>
+    <b>items-center</b>
     <div class="flex items-center bg-red-200 m-5 h-40">
       <div class="w-16 h-16 bg-yellow-500">1</div>
       <div class="w-16 h-16 bg-red-500">2</div>
@@ -75,7 +95,7 @@
       <p class="text-5xl">Hello there.</p>
     </div>
 
-   
+
 
     <!-- ****************************** -->
     <!--
